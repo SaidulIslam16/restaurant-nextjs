@@ -32,7 +32,7 @@ export default function Navbar() {
         {!user ? (
           <Link href="/login">Login</Link>
         ) : (
-          <Link href="/menu">Orders</Link>
+          <Link href="/orders">Orders</Link>
         )}
         <Link href="/cart">
           <CartIcon />
