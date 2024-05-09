@@ -9,7 +9,7 @@ export default function MenuPage() {
         <Link
           href={`/menu/${category.slug}`}
           key={category.id}
-          className="w-full h-1/3 bg-cover p-5 md:h-1/2"
+          className="w-full h-1/3 bg-cover p-5 md:h-2/3 flex items-center"
           style={{ backgroundImage: `url(${category.img})` }}
         >
           <div className={`text-${category.color} w-1/2`}>
